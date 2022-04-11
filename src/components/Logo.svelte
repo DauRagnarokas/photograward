@@ -1,3 +1,3 @@
 
 
-<img src="/assets/logo.svg" alt="logo" width="200" />
+<img src="/logo.svg" alt="logo" width="200" />
