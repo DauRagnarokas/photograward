@@ -18,7 +18,7 @@
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" class="w-6 h-6"><path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
           </button>
         </span>
-        <input  bind:value={query} type="search" name="q" class="form-input w-full py-4 text-sm bg-gray-100  rounded-md pl-10 pr-4 outline-2 outline-blue focus:outline focus:bg-white focus:text-gray-900" placeholder="Search photos.." autocomplete="off">
+        <input  bind:value={query} type="search" name="q" class="form-input w-full py-4 text-sm bg-gray-100  rounded-md pl-12 pr-4 outline-2 outline-blue focus:outline focus:bg-white focus:text-gray-900" placeholder="Search photos.." autocomplete="off">
 </div>
     </form>
   </div>

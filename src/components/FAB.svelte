@@ -1,9 +1,10 @@
+<script>
+      import Icon from '@iconify/svelte';
 
-<button title="Upload Photo"
-                class="fixed bottom-0 right-0 mr-8 mb-8 p-0 w-12 h-12 bg-blue-600 rounded-full hover:bg-blue-500 active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
-          <svg viewBox="0 0 20 20" enable-background="new 0 0 20 20" class="w-6 h-6 inline-block">
-            <path fill="#FFFFFF" d="M16,10c0,0.553-0.048,1-0.601,1H11v4.399C11,15.951,10.553,16,10,16c-0.553,0-1-0.049-1-0.601V11H4.601
-                                    C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1H9V4.601C9,4.048,9.447,4,10,4c0.553,0,1,0.048,1,0.601V9h4.399
-                                    C15.952,9,16,9.447,16,10z" />
-          </svg>
-        </button>
+  export let iconName;
+  export let title;
+</script>
+<button title={title}
+                class="w-14 h-14 bg-white hover:bg-slate-100 rounded-full border-4 border-white drop-shadow-xl font-bold text-4xl active:shadow-lg mouse shadow transition ease-in duration-200 flex  justify-center items-center focus:outline-none">
+                <Icon icon={iconName} height="32" color="black" />
+              </button>

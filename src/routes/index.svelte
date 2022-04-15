@@ -138,5 +138,11 @@ h1 {
     <LoadingIndicator />
   {/if}
 </div>
-<FAB/>
+<div class="actions-bottom fixed  bottom-0 right-0 mr-8 mb-8 p-0 flex flex-col space-y-3">
+
+  <FAB iconName="charm:plus" title="Upload Photo" />
+  <a href="/about">
+  <FAB iconName="ic:round-question-mark" title="About" />
+</a>
+</div>
 </main>
