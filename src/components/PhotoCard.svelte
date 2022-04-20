@@ -39,6 +39,7 @@ import PhotoButton from './PhotoButton.svelte';
       text-decoration: underline;
     }
 
+
     @keyframes show {
       0% {
         opacity: 0;
@@ -56,8 +57,10 @@ import PhotoButton from './PhotoButton.svelte';
     <!-- <a href={photo.links.html} rel="noopener noreferrer" target="_blank"> -->
     <!-- <a href=/photos/{photo.id}  > -->
       <div class="wrap relative  rounded-3xl overflow-hidden mb-2"><div class="invisible overlay2 w-full h-full absolute bg-black bg-opacity-40">
-        <div class="actions absolute bottom-0 left-0 flex space-x-3 p-3 pl-4">
-          <PhotoButton iconName="fa-solid:award" title="Aplause" />
+        <div class="actions absolute bottom-0 left-0 right-0 flex space-x-3 justify-between p-3 pl-4">
+          <PhotoButton iconName="entypo:select-arrows" title="Arrange" />
+
+            <PhotoButton height='32' iconName='ph:hands-clapping-fill' title='Applause' />
           <PhotoButton iconName="fa-solid:money-bill-wave" title="Award" />
       </div>
       </div><img class="photo " src={photo.urls.small} alt={photo.description || ""}></div>
